@@ -6,7 +6,7 @@
   font-family: "lato", sans-serif;
 }
 .container {
-  margin: 170px 200px 0px 200px;
+  margin: 170px 150px 0px 150px;
 }
 .container-full {
   margin-top: 170px;
@@ -66,7 +66,7 @@ li {
   background-color: rgba(229, 84, 115, 0.1);
 }
 .header-container {
-  margin: 0px 200px;
+  margin: 0px 150px;
 }
 .text-img {
   display: flex;
@@ -98,6 +98,7 @@ li {
 .featurd-card {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 }
 .radius-card,
 .radius-card-center {
@@ -108,7 +109,10 @@ li {
   align-items: end;
 }
 .radius-card img {
-  width: 280px;
+  width: 275px;
+}
+.center-img{
+  width: 270px;
 }
 .radius-card-center {
   align-items: center;
@@ -119,7 +123,7 @@ li {
 }
 .card-bacground2 {
   background: rgba(5, 151, 160, 0.15);
-  padding-left: 15px;
+  padding: 0px 35px;
 }
 .card-bacground3 {
   background: rgba(71, 125, 17, 0.15);
@@ -135,7 +139,7 @@ li {
 .hot-deal {
   background: rgba(229, 84, 115, 0.05);
   display: flex;
-  padding: 100px 300px;
+  padding: 100px 240px;
   justify-content: space-between;
   align-items: center;
 }
@@ -145,15 +149,21 @@ li {
 /* ------------------------ X ------------------------ */
 
 /* ------------------------ instagrm style ------------------------ */
+.instagram-img{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
 .instagram-img > img {
   width: 265px;
+  border-radius: 7px;
 }
 /* ------------------------ X ------------------------ */
 
 /* ------------------------ testimonial style ------------------------ */
 .review-card {
   display: flex;
-  gap: 20px;
+  gap: 25px;
   margin-top: 100px;
 }
 .card-box {
@@ -201,18 +211,21 @@ li {
 .latest-deals {
   background-image: url("images/Rectangle 9.png");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  height: 449px;
+  /* height: 449px; */
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
+.deal{
+  padding: 100px 0px;
+}
 .input-btn > input {
   padding: 18px 20px;
   margin-right: 10px;
-  width: 700px;
+  width: 500px;
   font-size: 16px;
   border: none;
 }
