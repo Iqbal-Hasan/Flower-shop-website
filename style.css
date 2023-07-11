@@ -6,7 +6,7 @@
   font-family: "lato", sans-serif;
 }
 .container {
-  margin: 170px 9% 0px 9%;
+  margin: 170px 200px 0px 200px;
 }
 a {
   text-decoration: none;
@@ -24,6 +24,21 @@ li {
   border: none;
   cursor: pointer;
 }
+.section-title {
+  color: #272727;
+  font-size: 35px;
+  font-weight: 800;
+}
+.section-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.center {
+  text-align: center;
+}
+
 /* ------------------------ X ------------------------ */
 
 /* ------------------------ header style ------------------------ */
@@ -31,7 +46,7 @@ li {
   background-color: rgba(229, 84, 115, 0.1);
 }
 .header-container {
-  margin: 0px 9%;
+  margin: 0px 200px;
 }
 .text-img {
   display: flex;
@@ -53,5 +68,45 @@ li {
   font-weight: 400;
   line-height: 25px;
   margin: 32px 0px;
+}
+/* ------------------------ X ------------------------ */
+
+/* ------------------------ featured style ------------------------ */
+.featured-desciption {
+  margin: 20px 0px 30px 0px;
+}
+.featurd-card {
+  display: flex;
+  justify-content: space-between;
+}
+.radius-card,
+.radius-card-center {
+  border-radius: 300px 300px 0px 0px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.radius-card img {
+  width: 280px;
+}
+.radius-card-center {
+  align-items: center;
+}
+.card-bacground1 {
+  background: rgba(167, 33, 98, 0.15);
+  padding: 0px 30px;
+}
+.card-bacground2 {
+  background: rgba(5, 151, 160, 0.15);
+  padding-left: 15px;
+}
+.card-bacground3 {
+  background: rgba(71, 125, 17, 0.15);
+  padding: 0px 35px;
+}
+.center > p {
+  margin-top: 20px;
+  text-decoration: underline;
 }
 /* ------------------------ X ------------------------ */
