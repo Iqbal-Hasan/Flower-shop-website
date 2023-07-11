@@ -108,7 +108,7 @@ li {
 .radius-card img {
   width: 275px;
 }
-.center-img{
+.center-img {
   width: 270px;
 }
 .radius-card-center {
@@ -129,6 +129,12 @@ li {
 .center > p {
   margin-top: 20px;
   text-decoration: underline;
+  transition: 0.3s ease all;
+}
+.center > p:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #e55473;
 }
 /* ? ---------------------------- X ---------------------------- */
 
@@ -146,7 +152,7 @@ li {
 /* ? ---------------------------- X ---------------------------- */
 
 /* ? ---------------------------- Instagrm Style ---------------------------- */
-.instagram-img{
+.instagram-img {
   display: flex;
   justify-content: space-between;
   gap: 10px;
@@ -164,7 +170,8 @@ li {
   margin-top: 100px;
 }
 .card-box {
-  border-top: 2px solid rgb(102, 102, 102);
+  border-top: 3px solid rgb(21, 177, 177);
+  /* border-top: 2px solid rgb(102, 102, 102); */
   border-radius: 7px;
   position: relative;
   display: flex;
@@ -216,7 +223,7 @@ li {
   flex-direction: column;
   align-items: center;
 }
-.deal{
+.deal {
   padding: 100px 0px;
 }
 .input-btn > input {
