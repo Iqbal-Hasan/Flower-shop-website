@@ -8,6 +8,9 @@
 .container {
   margin: 170px 200px 0px 200px;
 }
+.container-full{
+margin-top: 170px;
+}
 a {
   text-decoration: none;
 }
@@ -23,6 +26,9 @@ li {
   background: #e55473;
   border: none;
   cursor: pointer;
+}
+.color-primary{
+  color: #e55473;
 }
 .section-title {
   color: #272727;
@@ -110,3 +116,17 @@ li {
   text-decoration: underline;
 }
 /* ------------------------ X ------------------------ */
+
+/* ------------------------ hot deal style ------------------------ */
+.hot-deal{
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  padding: 100px 300px;
+  justify-content: space-between;
+  align-items: center;
+}
+.deal-description{
+  margin: 20px 0px;
+}
+/* ------------------------ X ------------------------ */
+
