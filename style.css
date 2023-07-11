@@ -8,8 +8,8 @@
 .container {
   margin: 170px 200px 0px 200px;
 }
-.container-full{
-margin-top: 170px;
+.container-full {
+  margin-top: 170px;
 }
 a {
   text-decoration: none;
@@ -27,7 +27,7 @@ li {
   border: none;
   cursor: pointer;
 }
-.color-primary{
+.color-primary {
   color: #e55473;
 }
 .section-title {
@@ -44,10 +44,10 @@ li {
 .center {
   text-align: center;
 }
-.mr-right{
+.mr-right {
   margin-right: 10px;
 }
-.padding-tb{
+.padding-tb {
   padding: 24px 0px;
 }
 
@@ -124,14 +124,14 @@ li {
 /* ------------------------ X ------------------------ */
 
 /* ------------------------ hot deal style ------------------------ */
-.hot-deal{
+.hot-deal {
   background: rgba(229, 84, 115, 0.05);
   display: flex;
   padding: 100px 300px;
   justify-content: space-between;
   align-items: center;
 }
-.deal-description{
+.deal-description {
   margin: 20px 0px;
 }
 /* ------------------------ X ------------------------ */
@@ -142,3 +142,23 @@ li {
 }
 /* ------------------------ X ------------------------ */
 
+/* ------------------------ get latest deals style ------------------------ */
+.latest-deals {
+  background-image: url("images/Rectangle 9.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 449px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.input-btn > input {
+  padding: 18px 20px;
+  margin-right: 10px;
+  width: 700px;
+  font-size: 16px;
+  border: none;
+}
+/* ------------------------ X ------------------------ */
